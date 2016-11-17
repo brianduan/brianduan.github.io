@@ -1,0 +1,59 @@
+body{
+	box-sizing: border-box; 
+	font-family:'Lato', sans-serif;
+}
+
+a:link, a:visited{
+	text-decoration:none;
+	color:black;
+}
+
+a:hover, a:active{
+	text-decoration:none;
+	color:hotpink;
+}
+
+.horizontal-rule {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+.demo-work{
+	border:1px #C7C7C7 dashed;
+	margin-bottom:20px;
+}
+
+.demo-work:hover{
+	box-shadow:1px 1px 3px black;
+} 
+
+.demo-work img{
+	margin:0 auto;
+	padding-top:5px;
+}
+
+.demo-work figcaption{
+	text-align:center;
+}
+
+.header-logo img{
+	margin-top:10px;
+}
+
+.super-header{
+	font-size:60px;
+	font-weight:200;
+}
+
+.footer-box{
+	background-color:#C7C7C7;
+	height:50px;
+}
+
+.footer-text{
+	font-weight:100;
+}
+
