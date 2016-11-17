@@ -273,18 +273,18 @@ body{
 
 /*--------------------------------video section--------------------------------*/
 .video{
-	height:185px;
+	height:168px;
 	border:1px solid #E8E8E8;
 }
 
 .video_content{
-	height:150px;
+	height:130px;
 }
 
 .sidebar_ad{
-	height:55px;
-	border:1px solid #E8E8E8;
-	margin-top:10px;
+	height:65px;
+	border:1px dashed #E8E8E8;
+	margin-top:5px;
 }
 
 /*--------------------------------copyright section--------------------------------*/
