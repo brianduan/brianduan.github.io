@@ -21,6 +21,12 @@ a:hover, a:active{
     background-color: #333; /* Modern Browsers */
 }
 
+.super-font {
+	font-weight:bold;
+	color:black;
+}
+
+
 .demo-work{
 	border:1px #C7C7C7 dashed;
 	margin:0;
