@@ -23,21 +23,55 @@ a:hover, a:active{
 
 .demo-work{
 	border:1px #C7C7C7 dashed;
-	margin-bottom:20px;
+	margin:0;
+	padding:0;
 }
 
 .demo-work:hover{
 	box-shadow:1px 1px 3px black;
-} 
+} 	
 
 .demo-work img{
 	margin:0 auto;
-	padding-top:5px;
+	padding-top:10px;
 }
 
 .demo-work figcaption{
 	text-align:center;
 }
+
+.demo-work span{
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color: black;
+	width:100%;
+	height:100%;
+	color:#fff;
+	opacity:0;
+	/*filter:alpha(opacity=0);*/
+	transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s; 
+	-o-transition: 1s; 
+}
+
+.demo-work:hover span{
+	opacity:0.8;
+	/*filter:alpha(opacity=80);*/
+} 
+
+.demo-work span strong{
+	font-size:30px;
+	display:block;
+	width:100%;
+	height:100%;
+	line-height:500%;
+	text-align:center;
+}
+
+
 
 .header-logo img{
 	margin-top:10px;
