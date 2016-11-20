@@ -97,3 +97,19 @@ a:hover, a:active{
 	font-weight:100;
 }
 
+
+/*New added CSS for tab section*/
+.feature {
+  padding:60px 0;
+}
+
+.feature-heading {
+  font-size:50px;
+  color:#2a6496;
+  margin-top:20px;
+}
+
+.feature-heading .text-muted {
+  font-size: 28px;
+  color: #999;
+}

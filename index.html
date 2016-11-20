@@ -142,23 +142,26 @@
 
 			<div class="col-md-4 col-sm-6 col-xs-12 demo-work">
 				<figure>
-					<img class="img-responsive" src="images/rickrocks.png">
+					<img class="img-responsive" src="images/online-resume.jpg">
 					<figcaption>
-						<a href="#" target="_blank"><h3>RiceRocks</h3></a>
-						<p>Python project from Rice's FOC specilisation</p>
+						<h3>Interactive Resume</h3>
+						<p>Part of Udacity's Nanodegree Programme</p>
 					</figcaption>
+					<span><strong>Project In Progress<br>Coming Soon</strong></span>
 				</figure>
 			</div>
 
 			<div class="col-md-4 col-sm-6 col-xs-12 demo-work">
 				<figure>
-					<img class="img-responsive" src="images/blackjack.png">
+					<img class="img-responsive" src="images/online-resume.jpg">
 					<figcaption>
-						<a href="http://www.codeskulptor.org/#user41_CfPqiI5w1O_44.py" target="_blank"><h3>Blackjack</h3></a>
-						<p>Python project from Rice's FOC specilisation</p>
+						<h3>Interactive Resume</h3>
+						<p>Part of Udacity's Nanodegree Programme</p>
 					</figcaption>
+					<span><strong>Project In Progress<br>Coming Soon</strong></span>
 				</figure>
-			</div>	
+			</div>
+
 		</section>
 		
 		<br>
@@ -229,9 +232,56 @@
 					</figcaption>
 				</figure>
 			</div>
+		</section> <!-- python projects section end -->
 
+		<br>
+		<br>
+		<section class="row" id="hardware-projects">
+			<div class="col-md-12">
+				<h2 class="super-font">Hardware Projects</h2>
+				<hr>
+			</div>
+		
+			<div>
 
+	        <!-- Nav tabs -->
+	        <ul class="nav nav-tabs" role="tablist">
+	          <li role="presentation" class="active"><a href="#tab-hardware-1" aria-controls="home" role="tab" data-toggle="tab">Project1</a></li>
+	          <li role="presentation"><a href="#tab-hardware-2" aria-controls="profile" role="tab" data-toggle="tab">Project2</a></li>
+	        </ul>
 
+	        <!-- Tab panes -->
+	        <div class="tab-content">
+	          <div role="tabpanel" class="tab-pane active" id="tab-hardware-1">
+	            <div class="row feature">
+	                <div class="col-md-7">
+	                    <h2 class="feature-heading">Serial Communication<span
+	                            class="text-muted"> Verilog</span></h2>
+	                    <p class="lead">This project is a digital design coded in Verilog that turns FPGA development board into a simple user interface which allows a user to generate a variety of text content, which will be sent to a computer via serial (RS232) communication. It involves transmitting a character (a package of bits ASCII coding) from FPGA board to PuTTY terminal on the computer using RS232 UART transmission method.</p>
+	                </div>
+	                <div class="col-md-5">
+	                    <img class="feature-image img-responsive center-block" src="images/ass1.png"
+	                         alt="hardware-1" width="200" height="200">
+	                </div>
+	            </div>
+	          </div>
+
+	          <div role="tabpanel" class="tab-pane" id="tab-hardware-2">
+	            <div class="row feature">
+	                <div class="col-md-5">
+	                    <img class="feature-image img-responsive center-block" src="images/ass2.png"
+	                         alt="hardeware-2" width="250" height="200">
+	                </div>
+	                <div class="col-md-7">
+	                    <h2 class="feature-heading">ATmega8 Signal Processing <span class="text-muted">C</span>
+	                    </h2>
+	                    <p class="lead">This project is an embedded system coded in C to utilise the ATmega8 microcontroller as a signal processor for an incoming analogue signal. The key tasks this system achieves are: Conversion to digital of the analogue signal provided as a "sound" input; Real time processing (recognition of signal activity and signal features); Computation of basic signal analysis; Generation of a text output (on the LCD screen)</p>
+	                </div>
+	            </div>
+	          </div>
+	        </div>
+
+	      	</div>
 
 		</section>
 
@@ -242,10 +292,10 @@
 			</div>
 
 			<div class="footer-text text-right col-md-12">
-				<p>Made with &#128156;&nbsp; Brian Duan 2016 <br>bdbdbd@gmail.com </p> 
+				<p>Made with &#128156;&nbsp; Brian Duan 2016 <br>dcyyyyy@gmail.com </p> 
 			</div>
 		</footer>
-
+	
 	</div>
 
 	<!-- This is the sidebar navigation section -->
@@ -254,7 +304,7 @@
 	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 	  <a href="#frontend-projects">Front-End Projects</a>
 	  <a href="#python-projects">Python Mini Projects</a>
-	  <a href="#">Hardware Projects</a>
+	  <a href="#hardware-projects">Hardware Projects</a>
 	  <a href="#">About</a>
 	</div>
 
@@ -275,7 +325,10 @@
 	    document.body.style.backgroundColor = "white";
 	}
 	</script>
-
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
