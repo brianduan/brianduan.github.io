@@ -1,0 +1,120 @@
+@charset "utf-8";
+/*公用*/
+.comWidth{width:1000px;margin-left: auto;margin-right: auto;}
+.leftArea{float: left;}
+.rightArea{float: right;}
+.hide{display: none;}
+.show{display: block;}
+
+/*topBar*/
+.topBar{height: 31px;width: 100%;background-color:#f7f7f7;line-height: 31px;}
+.collection{background: url(../img/icon/collection.png) left center no-repeat;padding-left: 17px;font-weight: bold;}
+.topBar a:hover{color:red;}
+
+/*logo*/
+.logoBar{height: 85px;background-color: white;}
+.logo{padding-left: 41px;padding-top: 30px;}
+/*#1d7ad9*/
+
+/*search*/
+.search_box{width:430px;margin-top: 23px;margin-left: 185px;}
+/*.search_text{width: 350px;height: 14px;line-height:14px;padding:11px 5px 10px;background-color: #FFF;}*/
+.search_text{width: 350px;height: 35px;line-height:35px\9/*css hack \9代表所有的IE浏览器*/;padding:0 5px;background-color: #f7f7f7;}
+.search_btn{width: 70px;height: 35px;font-size: 14px;font-family: "微软雅黑";background-color: #ff8c00;color: #FFF;}
+
+/*shopCar*/
+.shopCar{width: 145px;height: 35px;background-color: #ff8c00;margin-top: 23px;font:14px/35px "微软雅黑";color: #FFFFFF;margin-right: 59px;}
+.shopText{/*font-size:14px;font-family: "微软雅黑";line-height:35px;*/height: 100%;width: 87px;border-right:#E27A00 solid 1px;background: url(../img/icon/shopCar.png) 10px center no-repeat;text-indent: 40px;}
+.shopNum{width: 26px;height: 35px;border-left: #FF9C01 solid 1px;background: url(../img/icon/sanjiao.png) 33px center no-repeat;text-align: right;padding-right:30px;}
+
+/*导航*/
+.navBox{height: 35px;background-color:#1369c0;color: #FFF;}
+.shopClass{width: 190px;position: relative;}
+.shopClass h3{text-align: center;line-height: 35px;}
+.shopClass i{width: 11px;height: 7px;overflow: hidden;display:inline-block;background: url(../img/icon/sj.png) left center no-repeat;margin-left: 11px;}
+.nav,.shopClass h3{font-family: "微软雅黑";}
+.nav{line-height: 35px;}
+.nav li{float:left;}
+.nav a{height: 35px;display: inline-block;padding: 0 35px;color: #FFF;}
+.nav .active{background-color:#4593fd}
+
+/*商品弹出列表*/
+.shopClass_show{background-color: #4593FD;position: absolute;left: 0;top: 35px;width: 100%;}
+.shopClass_item {padding:22px 10px;border-bottom: #3487f2 solid 1px;border-top: #4593FD solid 1px;}
+.shopClass_item dt{height: 18px;background: url(../img/icon/jt.png) right center no-repeat;}
+.shopClass_item .b{/*font-family: "微软雅黑";font-size: 14px;font-weight: bold;*/font: 14px/1 "微软雅黑";}
+.shopClass_item a{color:#FFF;display: inline-block;border-radius: 5px;padding: 2px;}
+.shopClass_item a:hover{text-decoration: underline;background-color: #1369c0;}
+.shopClass_item .aLink{background-color: #106ac0;display: inline-block;text-align: center;}
+
+/*shopClass_item 的active状态*/
+.shopClass_active{background-color: #FFFFFF;border-left: #4593fd solid 1px;}
+.shopClass_active dt{background: none;}
+.shopClass_active a{color: #000;}
+.shopClass_active .aLink{color: #FFF;text-decoration: none;}
+
+/*弹出菜单*/
+.shopClass_list {width: 568px;border:#dddddd solid 1px;position: absolute;left:190px;top:35px;z-index: 10000;background-color:#FFF;}
+.shopClass_cont {padding: 0 20px;}
+.shopList_item {padding: 10px 0;border-bottom: #e5e5e5 solid 1px;}
+.shopList_item dt{color:#4b88da;font-weight: bold;height: 24px;line-height: 24px;}
+.shopList_item dd{padding-left: 68px;margin-top: -24px;line-height: 24px;}
+.shopList_item a{margin-right: 12px;}
+.shopList_item a:hover{color:#ff7300;}
+.shopList_links{padding: 15px 0 15px 20px;}
+.shopList_links a{color: #FFFFFF;background-color: #2785e6;height: 26px;line-height: 26px;margin-right: 10px;font-size: 12px;display: inline-block;padding: 0 14px 0 8px;}
+.shopList_links span{width: 11px;height: 7px; background: url(../img/icon/jt.png) left center no-repeat; display: inline-block;margin-left: 7px;}
+
+/*banner部分*/
+.banner{margin-bottom: 15px;}
+.banner_bar{float: right;position: relative;overflow: hidden;}
+.imgBox{position: absolute;left: 0;top: 0;}
+.imgBox li{float: left;}
+.imgBox img{display: block;}
+.imgNum {position: absolute;left: 0;bottom: 15px;width: 100%;text-align: center;}
+.imgNum a{width: 20px;height: 5px;overflow: hidden;background: #FFF;display: inline-block;margin: 0 3px;}
+.imgNum .active{background-color: #ff7700;}
+.banner_big,.banner_big img{width: 810px;height: 410px;}
+.banner_big .imgBox{width: 3240px;height: 326px;}
+.banner_sm1,.banner_sm img{width: 190px;height: 400px;}
+.banner_sm1 .imgBox{width: 760px;height: 400px;}
+.banner_sm2,.banner_sm img{width: 190px;height: 400px;}
+.banner_sm2 .imgBox{width: 760px;height: 400px;}
+
+/*商品标题*/
+.shopTitle{height: 44px;font-family: "微软雅黑";line-height: 44px;margin-bottom: 15px;}
+.shopTitle h3{font-size: 24px;float: left;font-weight: normal;padding-left: 15px;}
+.icon{width: 44px;height:44px;background: url(../img/icon/shopIcon.png) left top no-repeat;float: left;}
+.more{float: right;font-family: "宋体";padding-top: 5px;}
+.more:hover{text-decoration: underline;}
+
+/*商品列表*/
+.shopList{height: 400px;margin-bottom: 15px;}
+.shopList .leftArea{width: 190px;}
+.shopList .rightArea{width: 808px;border: #e5e5e5 solid 1px;border-bottom: #ff7201 solid 3px;height: 396px;overflow: hidden;}
+
+/*右侧商品列表*/
+.shopList_top{height: 280px;}
+.shopList_top,.shopList_sm{margin-right: -4px;}
+.shop_item{width: 202px;border-right:#e5e5e5 solid 1px;border-bottom:#e5e5e5 solid 1px;height: 279px;text-align: center;font-family: "微软雅黑";float: left;}
+.shop_img{height: 218px;}
+.shop_img img{width: 132;height: 152px;display: block;padding-left: 35px;padding-top: 50px;}
+.shop_item h3{font-size:16px;}
+.shop_item p{font-size: 14px;color: #FF7300;line-height: 21px;}
+
+/*商品列表-小*/
+.shopItem_sm{width: 202px;border-right:#e5e5e5 solid 1px;height: 116px;float: left;}
+.shopItem_smImg{width: 95px;height: 70px;text-align: center;float: left;padding-top:25px ;}
+.shopItem_text{padding-top: 28px;width: 90px;float: left;padding-left: 10px;}
+.shopItem_text p{color: #FF7700;}
+.shopItem_text h3{font-family: "微软雅黑";font-size: 16px;font-weight: normal;color: #181818;line-height: 30px;}
+
+.hr_25{height: 25px;}
+
+/*底部*/
+.footer{background-color: #F2F2F2;text-align: center;line-height: 24px;padding: 50px 0;}
+.footer i{font-style: normal;margin:0 5px;}
+.footer a{color:#000;}
+.footer a:hover{color:red;}
+.web{padding-top:30px;}
+.web img{margin:0 12px;}
